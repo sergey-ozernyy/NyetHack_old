@@ -1,4 +1,7 @@
-    class Player(_name:String, val health:Int){
+
+import kotlin.Array
+
+class Player(_name:String, val health:Int){
         val race = "DWARF"
         var town = "Bavaria"
         val name = _name
@@ -17,8 +20,12 @@
     }
     
     
-    fun main(args: Arrey<String>){
+    fun Imain(args: Array<String>){
         Player("Madrigal")
+        val playr.castF
+        ireball()
+
+
     }
     
     

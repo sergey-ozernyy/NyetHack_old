@@ -1,20 +1,22 @@
 import java.time.DateTimeException
 import java.util.*
 
-fun main() {
 
-
-
+/*
 class Task(_name: String,
             val id: Int = 0,
             var status: Boolean = false){
-    var name = _name
+        var name = _name
         get()=field.capitalize()
-    constructor(name: String): this(name){
-
-    }
+        constructor(_name:String): this(_name){
+            status = true
+        }
 
 }
 
-val task1 = Task("Разобраться с конструкторами в Kotlin")
+fun main(args: String) {
+    Task(_name ="Разобраться с конструкторами в Kotlin")
+
 }
+
+ */
