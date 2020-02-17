@@ -15,5 +15,7 @@ val adapter = ArrayAdapter.createFromResource(
 adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
 spinner.setAdapter(adapter)
   
-  
-  
+---------------  
+val spinner = findViewById(R.id.spinner) as Spinner
+val selected = spinner.getSelectedItem().toString()
+Toast.makeText(getApplicationContext(), selected, Toast.LENGTH_SHORT).show()  
